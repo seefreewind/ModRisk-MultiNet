@@ -1,0 +1,143 @@
+status: PREREGISTERED
+date: '2026-08-28'
+selection_basis: Phase 3 frozen tables only (no MR results used)
+primary_pairs:
+- pair: HF_sleep_apnoea
+  stratum: A_BMI_led
+  disease1: HF
+  disease2: sleep_apnoea
+- pair: gout_sleep_apnoea
+  stratum: A_BMI_led
+  disease1: gout
+  disease2: sleep_apnoea
+- pair: HF_OA
+  stratum: A_BMI_led
+  disease1: HF
+  disease2: OA
+- pair: diabetes_type_2_OA
+  stratum: A_BMI_led
+  disease1: diabetes_type_2
+  disease2: OA
+- pair: alc_problems_COPD
+  stratum: B_smoking_led
+  disease1: alc_problems
+  disease2: COPD
+- pair: alc_problems_fibromyalgia
+  stratum: B_smoking_led
+  disease1: alc_problems
+  disease2: fibromyalgia
+- pair: COPD_gastritis_duodenitis
+  stratum: B_smoking_led
+  disease1: COPD
+  disease2: gastritis_duodenitis
+- pair: alc_problems_insomnia
+  stratum: B_smoking_led
+  disease1: alc_problems
+  disease2: insomnia
+- pair: hypertension_valve_nonrheumatic
+  stratum: C_other_axis_led
+  disease1: hypertension
+  disease2: valve_nonrheumatic
+- pair: coronary_heart_HF
+  stratum: C_other_axis_led
+  disease1: coronary_heart
+  disease2: HF
+- pair: diabetes_type_2_periph_neuro
+  stratum: D_multi_axis
+  disease1: diabetes_type_2
+  disease2: periph_neuro
+- pair: carpal_tunnel_diabetes_type_2
+  stratum: D_multi_axis
+  disease1: carpal_tunnel
+  disease2: diabetes_type_2
+reserve_pairs:
+- pair: COPD_ulcer_peptic
+  stratum: D_multi_axis
+  disease1: COPD
+  disease2: ulcer_peptic
+- pair: peripheral_arterial_sleep_apnoea
+  stratum: A_BMI_led
+  disease1: peripheral_arterial
+  disease2: sleep_apnoea
+- pair: gout_OA
+  stratum: A_BMI_led
+  disease1: gout
+  disease2: OA
+- pair: hypertension_peripheral_arterial
+  stratum: D_multi_axis
+  disease1: hypertension
+  disease2: peripheral_arterial
+- pair: gout_IDA
+  stratum: D_multi_axis
+  disease1: gout
+  disease2: IDA
+- pair: IDA_peripheral_arterial
+  stratum: D_multi_axis
+  disease1: IDA
+  disease2: peripheral_arterial
+exposure_models:
+  Model1_dominant_axis:
+  - BMI
+  - SMK
+  Model2_core_cardio:
+  - BMI
+  - SMK
+  - SBP
+  - ApoB
+  Model3_full_six:
+  - BMI
+  - SMK
+  - SBP
+  - ApoB
+  - FG
+  - SLEEP
+instrument_thresholds:
+  P: 5.0e-08
+  ld_r2: 0.001
+  clumping_window_kb: 10000
+  ld_reference: MRC-IEU 1kg.v3 EUR VERIFIED (503 ind, 8,550,156 var, GRCh37)
+  clumping_status: 'COMPLETE (joint union clump: 104,786 -> 633 independent)'
+harmonization: 'palindromic: require allele-frequency match; proxies recorded with
+  LD r2; no silent replacement'
+conditional_F_policy (preclump values RELABELLED as diagnostic only):
+  threshold: 10
+  status: STRONG/BORDERLINE/WEAK
+  PRECLUMP_DIAGNOSTIC_NOT_VALID_FOR_GATE:
+    BMI: 114
+    SMK: 37
+gencov_policy: ZERO-JUSTIFIED for Models 2-3; Model 1 estimated from shared-instrument
+  covariance (see MVMR_GENCOV_AUDIT.md)
+replacement_rules: reserve replaces primary ONLY for technical failure (instruments,
+  outcome coverage, conditional F, harmonization); NEVER for non-significant MR
+multiple_testing: 'config/PHASE4_MULTIPLE_TESTING_LOCK.md (primary: Model1 x 12 outcomes,
+  BH across 24 effects)'
+sensitivity_plan: alternative GWAS; IVW secondary, weighted median, MR-Egger, MR-PRESSO
+  as sensitivity only
+conditional_F_policy:
+  threshold: 10
+  tool_selection: exposure-specific univariable F>10 instruments (standard MVMR)
+  Model1:
+    BMI:
+      F: 73.7
+      n: 420
+      status: STRONG
+    SMK:
+      F: 27.6
+      n: 54
+      status: STRONG
+  Model2:
+    BMI: 73.5
+    SMK: 27.7
+    SBP: 41.2
+    ApoB: 232.5
+    status: ALL STRONG
+  Model3:
+    BMI: 71.6
+    SMK: 21.2
+    SBP: 39.2
+    ApoB: 256.8
+    FG: 101.6
+    SLEEP: 24.4
+    status: ALL STRONG
+  note: 'All models STRONG (F>=10) with exposure-specific strong instruments; gencov:
+    Model1 ESTIMATED, Model2 APPROXIMATED, Model3 ZERO_SENSITIVITY_ONLY'

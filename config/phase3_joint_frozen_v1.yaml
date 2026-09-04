@@ -1,0 +1,28 @@
+status: FROZEN
+freeze_date: '2026-08-28'
+based_on: config/phase2_prepartial_frozen_v1.yaml
+input_checks:
+  disease_munged_sha256: 71/71 verified against phase2_prepartial_frozen_v1.yaml
+  exposure_munged_sha256: 6/6 verified
+  baseline: results/phase2_baseline/baseline71.rds (S/V/S_Stand/V_Stand 72-trait,
+    BMI_ref confounder)
+  disease_exposure_cov: results/phase2_disease_exposure/DISEASE_EXPOSURE_RG.tsv +
+    BATCH_*_RX.tsv (gcov per pair)
+  exposure_cov_6x6: results/phase2_covariance/exposure_cov.rds (S/V/I 6x6)
+exposure_block:
+- BMI
+- SBP
+- ApoB
+- FG
+- SMK
+- SLEEP
+diseases: 71
+pairs: 2485
+joint_model: Sigma_D|E = Sigma_DD - Sigma_DE solve(Sigma_EE) Sigma_ED (Schur complement)
+inversion: solve() only; NO nearPD/ridge/pseudoinverse/smoothing permitted
+jackknife:
+  blocks: 200
+  propagation: block-jackknife leave-one-out pseudo-values through Schur complement
+    (package line 626-641) and through rg standardization (line 662-678)
+sentinel_pairs_source: frozen Phase 2D results (SINGLE_EXPOSURE_RESULTS.tsv, q<0.05
+  criteria)

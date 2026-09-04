@@ -1,0 +1,9 @@
+dataset	n	source	QC
+GEMINI v1.1 diseases	71	Zenodo 19890575 (UKB+FinnGen)	71/71 MD5+gzip verified
+BMI	1	Yengo 2018 GIANT+UKB	Phase 1 VERIFIED
+Smoking initiation	1	GSCAN 2019	Phase 1 VERIFIED
+SBP	1	Neale UKB 4080	Phase 1 VERIFIED
+ApoB	1	GCST90013994	Phase 1 VERIFIED
+FG	1	MAGIC Manning 2012	Phase 1 VERIFIED
+Sleep	1	Dashti 2019	Phase 1 VERIFIED
+LD reference	1	eur_w_ld_chr (1000G EUR)	checked

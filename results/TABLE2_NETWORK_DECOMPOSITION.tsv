@@ -1,0 +1,9 @@
+condition	pairs	residual_FDR_significant	significant_attenuation	median_prop_attenuation
+baseline	2485	1535	-	-
+BMI-adjusted	2485	1193	-	-
+SMK-adjusted	2485	1178	-	-
+SBP-adjusted	2485	120	-	-
+ApoB-adjusted	2485	7	-	-
+FG-adjusted	2485	5	-	-
+SLEEP-adjusted	2485	148	-	-
+joint (6-factor)	2485	1100	1019	0.2492

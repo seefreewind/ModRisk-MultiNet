@@ -1,0 +1,31 @@
+status: FROZEN
+date: '2026-08-31'
+phase4_orientation:
+  PHASE4B_ORIGINAL_ORIENTATION_RESULTS: INVALID_ARCHIVED (negative-SMK harmonization
+    artifact; hashes in results/phase4_direction_audit/PHASE4B_PREAUDIT_FREEZE.md)
+  PHASE4C_CORRECTED_RESULTS: AUTHORITATIVE (positive-SMK, allele-aligned; results/phase4/*
+    regenerated 2026-08-31)
+  usage_rule: No plotting/manuscript script may load archived erroneous orientation
+    results (results/phase4_archive/)
+datasets:
+  gemini_diseases: 71
+  exposures: 6
+  ld_reference: eur_w_ld_chr (1000G EUR, GRCh37)
+  mr_ld_panel: MRC-IEU 1kg.v3 EUR (503 ind, 8.55M variants)
+checksums:
+  phase2_baseline: 6247bb2f75216c31f610646062609778d8a477baf67e7b01451cae5906619ebf
+  phase2b: fac8ed78125d1074a9674267b325083e2ddfa82eb816896084a2834302ad4cc0
+  phase2d: 4dd123a061707f53492a9ca5f141e91e68b91b2864b881bee4782f0051a2946b
+  phase3_joint: ca70ac63f2c3405db175bbe39b86474a3e9ec46270f0accf0880c61b89d58b28
+  phase3_results: 5ab4f92383aaadcec72d7a72e349bd81c31223c015967c07eb5e0e5464b336d0
+  phase4_mvmr_ivw: 5b1f4ee9044cd77c955c433c4ab956a394a24cd3c6af00705ff0fe93f6c6f3a0
+  phase4_fdr: b8b661b5ce1e807e2609238819a49324cff331ae5c1f20e7f44942811faeba9b
+  phase4_pairs: 060711db32fbfb3dd26b4b6290c054a1ac4bcaa2c3a22d3c3ddcd3d22948d0c1
+  phase4_master: b9fbc3371a966bfc04cbbd71a2b37a29bd7527cf0d3f8b96e501de6f657febd7
+  phase5_ahc: cbac5b5ae0adbdda8e7b77ecccb816204209511646a7ed34af19c7426c3585f9
+software:
+  R: 4.4.3
+  partialLDSC: 0.2.0
+  MVMR: 0.4.8
+  TwoSampleMR: 0.7.7
+  plink2: 2.0.0-a.7.3

@@ -1,0 +1,10 @@
+cluster	n_instruments	COPD	coronary_heart	diabetes_type_2	OA	Qp	status
+none	0						NO ROBUST MULTI-CLUSTER (published Q rule: all merged clusters fail)
+1	7	2.103	1.233	1.719	1.516	0.915	descriptive mid-solution (step40), NOT stable
+2	4	2.558	1.623	3.532	2.815	0.825	descriptive mid-solution (step40), NOT stable
+3	5	1.139	-0.465	-1.028	-0.439	0.639	descriptive: COPD+/T2D-OA- heterogeneous
+4	6	2.257	0.569	-0.355	0.509	0.79	descriptive: COPD/CHD+ T2D-
+6	5	2.395	1.54	-1.206	1.547	0.166	descriptive: cardiopulm+ T2D-
+7	6	0.771	0.925	1.444	0.673	0.969	descriptive mid-solution
+8	4	1.952	0.037	2.756	0.769	0.7	descriptive: COPD/T2D+ CHD~0
+11	5	0.851	-0.001	0.237	0.924	0.646	descriptive mid-solution
