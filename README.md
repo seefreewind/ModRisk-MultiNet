@@ -38,7 +38,7 @@ python3 scripts/manuscript/render_figures_gm.py
 ## Directory structure
 
 - `config/` — frozen analysis and terminology configuration.
-- `results/` — derived, machine-readable tables used by the manuscript and figures.
+- `results/` — derived, machine-readable tables used by the manuscript, figures and validation checks. Top-level files are manuscript-facing exports; selected `results/phase*/` files preserve the paths expected by the validation script.
 - `scripts/manuscript/` — numerical validation and Python figure-rendering scripts.
 - `software/` — partialLDSC implementation notes.
 Manuscript documents are not included in this repository.
