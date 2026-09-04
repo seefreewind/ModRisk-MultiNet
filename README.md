@@ -49,4 +49,4 @@ The validation script reproduces the headline denominators and counts: 71 diseas
 
 ## Release status and citation
 
-This repository should be cited together with the associated manuscript and, after archival, the versioned Zenodo DOI for the tagged release.
+This repository should be cited together with the associated manuscript and the Zenodo archive DOI for the tagged release: https://doi.org/10.5281/zenodo.22297319.
