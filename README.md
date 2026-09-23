@@ -1,52 +1,17 @@
-# ModRisk-MultiNet public code and derived-data repository
+# ModRisk-MultiNet: public code and derived data
 
-This repository supports the Genome Medicine manuscript **Modifiable risk factors differentially attenuate the shared genetic architecture of multimorbidity**. It contains the frozen configurations, reproducibility scripts and derived machine-readable tables needed to reproduce the headline numerical checks and inspect the displayed results.
+This repository supports the BMC Genomics research article **Genome-wide mapping of shared and residual genetic architecture of multimorbidity after conditioning on six modifiable risk-factor traits**. Manuscript documents and restricted third-party GWAS files are not redistributed here.
 
-## Scientific overview
+The fixed network contains 71 diseases and 2,485 disease pairs. Baseline genetic correlations were FDR-significant for 1,535 pairs. Joint conditioning produced FDR-significant signed baseline-to-joint differences for **1,019** pairs: **900** showed decreased and **119** showed increased absolute genetic-correlation magnitude. Another 1,466 pairs had no FDR-significant signed difference. Across the network, **1,100** pairs retained FDR-significant residual genetic correlations. Change class and residual significance are independent dimensions; 495 attenuated, 47 enhanced, and 558 no-significant-signed-change pairs retained a significant residual correlation.
 
-The project maps baseline genetic correlations across 71 diseases (2,485 disease pairs), evaluates six modifiable risk axes with single-factor and joint partial genetic correlation, and performs pre-registered BMI + smoking multivariable MR on selected disease pairs. MR-AHC is used to test whether smoking-associated variant heterogeneity forms stable clusters across four outcomes. Phase-4C corrected results are authoritative; the archived negative orientation is excluded.
+The R2 repair changed **derived pair-level labels**, not GWAS, LDSC, partialLDSC, joint-conditioning, MVMR, or MR-AHC estimates. See [the correction note](R2_CLASSIFICATION_CORRECTION_NOTE.md) and [classification rules](config/CLASSIFICATION_RULES_R2.md). The machine-readable R2 pair table and cross-tab are in `results/phase3_classification_repair_R2/`.
 
-## Data sources
+## Reproducibility
 
-- GEMINI v1.1 disease GWAS summary statistics: Zenodo record 19890575, subject to source licence.
-- Exposure sources: Yengo 2018 BMI; GSCAN 2019 smoking initiation; Neale UK Biobank 4080 SBP; GCST90013994 ApoB; MAGIC Manning 2012 fasting glucose; Dashti 2019 sleep duration.
-- LDSC LD reference: 1000 Genomes EUR `eur_w_ld_chr`.
-- MR LD reference: MRC-IEU 1000 Genomes phase 3 EUR panel.
+Run `python3 scripts/manuscript/validate_manuscript_numbers.py` from the repository root to verify the headline R2 counts and arithmetic. `scripts/manuscript/render_bmc_genomics_r2_figures.py` is the authoritative Figure 3/4 R2 renderer; `scripts/manuscript/render_bmc_genomics_submission_figure2.py` corrects Figure 2's wording without changing its values or disease order. `scripts/manuscript/render_figures_gm.py` is retained only as a **deprecated legacy classification** renderer and must not be used for current manuscript figures.
 
-Restricted third-party raw GWAS files are intentionally not included and must be obtained from their original repositories under their access conditions.
+The disease GWAS data are from GEMINI v1.1 ([source archive](https://doi.org/10.5281/zenodo.19890575)); exposure sources and LD resources are specified in the frozen configurations. Source licences govern access to third-party GWAS files.
 
-## Software
+## Release status
 
-The frozen analysis used R 4.4.3, partialLDSC 0.2.0, MVMR 0.4.8, TwoSampleMR 0.7.7 and plink2 2.0.0-a.7.3. Figure rendering uses Python with matplotlib and pandas.
-
-## Reproducing manuscript numbers
-
-From the repository root, run:
-
-```bash
-python3 scripts/manuscript/validate_manuscript_numbers.py
-```
-
-The script checks the frozen pair counts, FDR counts, primary MVMR family, pair-level classifications and MR-AHC status. It should report 22 assertions and `ALL CHECKS PASSED`.
-
-To render the six draft figures after placing the package in the project environment, run:
-
-```bash
-python3 scripts/manuscript/render_figures_gm.py
-```
-
-## Directory structure
-
-- `config/` — frozen analysis and terminology configuration.
-- `results/` — derived, machine-readable tables used by the manuscript, figures and validation checks. Top-level files are manuscript-facing exports; selected `results/phase*/` files preserve the paths expected by the validation script.
-- `scripts/manuscript/` — numerical validation and Python figure-rendering scripts.
-- `software/` — partialLDSC implementation notes.
-Manuscript documents are not included in this repository.
-
-## Expected outputs
-
-The validation script reproduces the headline denominators and counts: 71 diseases, 2,485 pairs, 1,535 baseline FDR-significant pairs, 1,019 significant joint attenuations, 1,100 residual-significant pairs, 30 primary MR effects, BMI 0/15, SMK 15/15, 12/12 concordant SMK pairs and no robust MR-AHC cluster solution.
-
-## Release status and citation
-
-This repository should be cited together with the associated manuscript and the Zenodo archive DOI for the tagged release: https://doi.org/10.5281/zenodo.22297319.
+The previously published [Zenodo record 10.5281/zenodo.22297319](https://doi.org/10.5281/zenodo.22297319) corresponds to the historical GitHub `1` tag and **does not contain this R2 correction**. The GitHub `v1.0.0` release is also historical. A `v1.0.1` patch archive is planned; do not cite the earlier DOI as the archived R2 version. Until a new archive is published, use the current repository commit to identify the corrected code and derived data.

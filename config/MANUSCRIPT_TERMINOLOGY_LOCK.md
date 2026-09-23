@@ -1,5 +1,7 @@
 # MANUSCRIPT TERMINOLOGY LOCK
 
+**HISTORICAL ONLY — deprecated legacy classification.** This 2026-08-31 terminology file predates the R2 pair-classification repair. It must not be used for the BMC Genomics R2 manuscript, current figures, current counts, or release summary. See `CLASSIFICATION_RULES_R2.md` for the frozen current rules.
+
 **Date:** 2026-08-31
 **Status:** LOCKED — applies to all manuscript text, figures, tables, supplement
 

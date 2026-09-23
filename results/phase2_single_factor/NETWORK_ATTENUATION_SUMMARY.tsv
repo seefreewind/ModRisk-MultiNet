@@ -1,0 +1,7 @@
+exposure	n_significant_q005	median_prop_atten	A_persistent	B_attenuated	C_near_null_residual	D_masked	E_direction_reversal	F_unstable_lowpower
+BMI	1193	0.1407	789	730	1	124	4	837
+SBP	120	0.0154	1528	69	0	30	0	858
+ApoB	7	0.0034	1601	0	0	6	0	878
+FG	5	0.0277	1610	5	0	0	0	870
+SMK	1178	0.1154	707	879	3	22	0	874
+SLEEP	148	0.0258	1469	121	0	16	0	879

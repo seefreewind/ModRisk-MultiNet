@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Render frozen ModRisk-MultiNet figures for the Genome Medicine draft.
+"""DEPRECATED LEGACY CLASSIFICATION renderer for the historical Genome Medicine draft.
 
 This script only reads frozen result tables and creates visual summaries. It
 does not rerun or alter any scientific analysis.
+Do not use its Figure 2/3/4 output for the BMC Genomics R2 submission.
 """
 from pathlib import Path
 import numpy as np
@@ -64,7 +65,7 @@ def fig2():
     fig, ax = plt.subplots(figsize=(6.2, 10.0))
     im=ax.imshow(summary[axes].to_numpy(),aspect="auto",cmap="RdBu_r",norm=TwoSlopeNorm(0, vmin=-.08, vmax=.16))
     ax.set_xticks(range(7),axes); ax.set_yticks(range(71),summary.index,fontsize=5)
-    ax.set_xlabel("Conditioning axis"); ax.set_ylabel("Disease (ordered by joint attenuation burden)")
+    ax.set_xlabel("Conditioning axis"); ax.set_ylabel("Disease (historical order; see R2 corrected renderer)")
     ax.set_title("Disease-level summary of genetic-sharing attenuation",loc="left",weight="bold")
     fig.colorbar(im,ax=ax,label="Median |baseline rg| − |conditioned rg|",fraction=.03,pad=.02)
     save(fig,2)

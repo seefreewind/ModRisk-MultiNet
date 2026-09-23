@@ -1,0 +1,72 @@
+disease	display_name	n_edges	median_absolute_magnitude_change	residual_significant_edges_r2
+carpal_tunnel	Carpal tunnel syndrome	70	0.0838074200344892	32
+sleep_apnoea	Sleep apnoea	70	0.0861375071207225	47
+asthma	Asthma	70	0.0724911306650675	44
+COPD	Chronic obstructive pulmonary disease	70	0.1153083095589935	41
+urine_incont	Urinary incontinence	70	0.0680208134177005	45
+OA	Osteoarthritis	70	0.0608221072446341	46
+cholelithiasis	Cholelithiasis	70	0.0718301586461682	24
+gout	Gout	70	0.0870894038556542	15
+GORD	Gastro-oesophageal reflux disease	70	0.0647443872602592	60
+RA	Rheumatoid arthritis	70	0.0635055999902913	48
+intervert_disc	Intervertebral disc disorders	70	0.0591935853312863	52
+psoriasis	Psoriasis	70	0.058623917919914	25
+IDA	Iron deficiency anaemia	70	0.0913518960333159	30
+gastritis_duodenitis	Gastritis and duodeniti	70	0.0560095107585838	53
+AF	Atrial fibrillation	70	0.0378592477534935	27
+alc_problems	Alcohol problems	70	0.0738100213487161	15
+enthesopathy_shoulder	Enthesopathies of the shoulder	70	0.0586297230404903	49
+tendon	Tendon disorders	70	0.0560866188751028	46
+cataract	Cataract	70	0.0413407944522595	27
+HF	Heart failure	70	0.0989697457986925	31
+ulcer_peptic	Peptic ulcer disease	70	0.0965718721703316	35
+thromboembolic	Thromboembolic	70	0.0556805984804908	35
+coronary_heart	Coronary heart disease	70	0.0792467863070067	45
+spondylosis	Spondylosis	70	0.0656115735835216	48
+enthesopathy_upper	Enthesopathies of the upper body	70	0.0554856732928497	39
+b12_def	Vitamin B12 deficiency anaemia	70	0.0881509248713391	15
+CKD	Chronic kidney disease	70	0.0543862161199578	12
+diverticuli	Diverticular disease of intestine (acute and chronic)	70	0.032110422443969	51
+ED	Erectile dysfunction	70	0.083792234441081	21
+fibromyalgia	Fibromyalgia	70	0.059045221380591	42
+depression	Depression	70	0.0393147090114266	53
+enthesopathy_lower	Enthesopathies of the lower body	70	0.0590532407793227	38
+hypothyroid	Hypothyroidism (without hyper)	70	0.0264257554980154	34
+AAA	Abdominal aortic aneurysm	70	0.055482054821829	16
+valve_nonrheumatic	Nonrheumatic valve disease	70	0.041238277898485	28
+spondylolisthesis	Spondylolisthesis	70	0.0403449822560575	27
+pri_skin	Primary Malignancy_Other Skin and subcutaneous tissue	70	0.0174389972612881	8
+TIA	Transient ischaemic attack	70	0.0473378405687224	42
+stroke_all	All stroke	70	0.0483086311308855	39
+osteoporosis	Osteoporosis	70	0.0329854902064666	42
+bursitis	Bursitis	70	0.0507575672472548	25
+isch_stroke_tia	Ischaemic stroke and TIA	70	0.0529813491354369	32
+pri_prost	Primary Malignancy_Prostate	70	0.0229013276523041	5
+deaf	deaf	70	0.0208487365606641	22
+diabetes_type_2	Diabetes type 2	70	0.0928029930638545	24
+hypertension	Hypertension	70	0.0625734209737354	50
+periph_neuro	Peripheral neuropathy	70	0.0642214952920744	33
+peripheral_arterial	Peripheral arterial disease	70	0.091827713637904	28
+anxiety	Anxiety disorders	70	0.0199800724227837	59
+urolithiasis	Urolithiasis	70	0.0151969394643818	32
+schizo	schizo	70	0.0131632606249956	25
+insomnia	Insomnia	70	0.0358908320213921	29
+retinal_detach	Retinal detachments and breaks	70	0.0191865124179644	4
+pri_bladder	Primary Malignancy_Bladder	70	0.0193258365603237	1
+sinusitis	Chronic sinusitis	70	0.0258510179223511	28
+female_genital_prolapse	Female genital prolapse	70	0.0127562197562725	46
+allergic_rhinitis	Allergic and chronic rhinitis	70	0.0104302689879398	36
+fibromatosis	Fibromatoses	70	0.0085597881991499	6
+migraine	Migraine	70	0.0080894611900218	53
+hyperthyroid	Hyperthyroidism (without hypo)	70	0.0195844013681797	19
+glaucoma	Glaucoma	70	0.0097516562780761	7
+pri_breast	Primary Malignancy_Breast	70	0.0073277677470107	15
+tinnitus	Tinnitus	70	0.0202736146914641	30
+raynauds	Raynaud's syndrome	70	0.0146681175740812	12
+IBS	Irritable bowel syndrome	70	0.0072968178706466	49
+scoliosis	Scoliosis	70	0.0093492452163792	21
+BPH	Hyperplasia of prostate	70	0.0065817080527235	29
+ulc_colitis	Ulcerative colitis	70	0.005128025633586	20
+PMR	Polymyalgia Rheumatica	70	0.0161480131113583	24
+essential_tremor	Essential tremor	70	0.0099901688324779	4
+pri_colorectal	Primary Malignancy_Colorectal	70	0.0068109090843133	5

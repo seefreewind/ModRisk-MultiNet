@@ -1,0 +1,73 @@
+internal_disease_id	publication_label	source
+AAA	Abdominal aortic aneurysm	config/diseases_gemini.tsv or frozen-alias mapping
+AF	Atrial fibrillation	config/diseases_gemini.tsv or frozen-alias mapping
+BPH	Benign prostatic hyperplasia	config/diseases_gemini.tsv or frozen-alias mapping
+CKD	Chronic kidney disease	config/diseases_gemini.tsv or frozen-alias mapping
+COPD	COPD	config/diseases_gemini.tsv or frozen-alias mapping
+ED	Erectile dysfunction	config/diseases_gemini.tsv or frozen-alias mapping
+GORD	Gastro-oesophageal reflux disease	config/diseases_gemini.tsv or frozen-alias mapping
+HF	Heart failure	config/diseases_gemini.tsv or frozen-alias mapping
+IBS	Irritable bowel syndrome	config/diseases_gemini.tsv or frozen-alias mapping
+IDA	Iron deficiency anaemia	config/diseases_gemini.tsv or frozen-alias mapping
+OA	Osteoarthritis	config/diseases_gemini.tsv or frozen-alias mapping
+PMR	Polymyalgia rheumatica	config/diseases_gemini.tsv or frozen-alias mapping
+RA	Rheumatoid arthritis	config/diseases_gemini.tsv or frozen-alias mapping
+TIA	Transient ischaemic attack	config/diseases_gemini.tsv or frozen-alias mapping
+alc_problems	Alcohol problems	config/diseases_gemini.tsv or frozen-alias mapping
+alcohol_problems	Alcohol problems	config/diseases_gemini.tsv or frozen-alias mapping
+allergic_rhinitis	Allergic and chronic rhinitis	config/diseases_gemini.tsv or frozen-alias mapping
+anxiety	Anxiety disorders	config/diseases_gemini.tsv or frozen-alias mapping
+asthma	Asthma	config/diseases_gemini.tsv or frozen-alias mapping
+b12_def	Vitamin B12 deficiency anaemia	config/diseases_gemini.tsv or frozen-alias mapping
+bursitis	Bursitis	config/diseases_gemini.tsv or frozen-alias mapping
+carpal_tunnel	Carpal tunnel syndrome	config/diseases_gemini.tsv or frozen-alias mapping
+cataract	Cataract	config/diseases_gemini.tsv or frozen-alias mapping
+cholelithiasis	Cholelithiasis	config/diseases_gemini.tsv or frozen-alias mapping
+coronary_heart	Coronary heart disease	config/diseases_gemini.tsv or frozen-alias mapping
+deaf	Hearing loss	config/diseases_gemini.tsv or frozen-alias mapping
+depression	Depression	config/diseases_gemini.tsv or frozen-alias mapping
+diabetes_type_2	Type 2 diabetes	config/diseases_gemini.tsv or frozen-alias mapping
+diverticuli	Diverticular disease of intestine (acute and chronic)	config/diseases_gemini.tsv or frozen-alias mapping
+enthesopathy_lower	Enthesopathies of the lower body	config/diseases_gemini.tsv or frozen-alias mapping
+enthesopathy_shoulder	Enthesopathies of the shoulder	config/diseases_gemini.tsv or frozen-alias mapping
+enthesopathy_upper	Enthesopathies of the upper body	config/diseases_gemini.tsv or frozen-alias mapping
+essential_tremor	Essential tremor	config/diseases_gemini.tsv or frozen-alias mapping
+female_genital_prolapse	Female genital prolapse	config/diseases_gemini.tsv or frozen-alias mapping
+fibromatosis	Fibromatoses	config/diseases_gemini.tsv or frozen-alias mapping
+fibromyalgia	Fibromyalgia	config/diseases_gemini.tsv or frozen-alias mapping
+gastritis_duodenitis	Gastritis/duodenitis	config/diseases_gemini.tsv or frozen-alias mapping
+glaucoma	Glaucoma	config/diseases_gemini.tsv or frozen-alias mapping
+gout	Gout	config/diseases_gemini.tsv or frozen-alias mapping
+hypertension	Hypertension	config/diseases_gemini.tsv or frozen-alias mapping
+hyperthyroid	Hyperthyroidism (without hypo)	config/diseases_gemini.tsv or frozen-alias mapping
+hypothyroid	Hypothyroidism (without hyper)	config/diseases_gemini.tsv or frozen-alias mapping
+insomnia	Insomnia	config/diseases_gemini.tsv or frozen-alias mapping
+intervert_disc	Intervertebral disc disorders	config/diseases_gemini.tsv or frozen-alias mapping
+isch_stroke_tia	Ischaemic stroke/TIA	config/diseases_gemini.tsv or frozen-alias mapping
+migraine	Migraine	config/diseases_gemini.tsv or frozen-alias mapping
+osteoporosis	Osteoporosis	config/diseases_gemini.tsv or frozen-alias mapping
+periph_neuro	Peripheral neuropathy	config/diseases_gemini.tsv or frozen-alias mapping
+peripheral_arterial	Peripheral arterial disease	config/diseases_gemini.tsv or frozen-alias mapping
+pri_bladder	Primary bladder malignancy	config/diseases_gemini.tsv or frozen-alias mapping
+pri_breast	Primary breast malignancy	config/diseases_gemini.tsv or frozen-alias mapping
+pri_colorectal	Primary colorectal malignancy	config/diseases_gemini.tsv or frozen-alias mapping
+pri_prost	Primary prostate malignancy	config/diseases_gemini.tsv or frozen-alias mapping
+pri_skin	Primary skin/subcutaneous malignancy	config/diseases_gemini.tsv or frozen-alias mapping
+psoriasis	Psoriasis	config/diseases_gemini.tsv or frozen-alias mapping
+raynauds	Raynaud's syndrome	config/diseases_gemini.tsv or frozen-alias mapping
+retinal_detach	Retinal detachments and breaks	config/diseases_gemini.tsv or frozen-alias mapping
+schizo	Schizophrenia-spectrum disorders	config/diseases_gemini.tsv or frozen-alias mapping
+scoliosis	Scoliosis	config/diseases_gemini.tsv or frozen-alias mapping
+sinusitis	Chronic sinusitis	config/diseases_gemini.tsv or frozen-alias mapping
+sleep_apnoea	Sleep apnea	config/diseases_gemini.tsv or frozen-alias mapping
+spondylolisthesis	Spondylolisthesis	config/diseases_gemini.tsv or frozen-alias mapping
+spondylosis	Spondylosis	config/diseases_gemini.tsv or frozen-alias mapping
+stroke_all	Stroke	config/diseases_gemini.tsv or frozen-alias mapping
+tendon	Tendon disorders	config/diseases_gemini.tsv or frozen-alias mapping
+thromboembolic	Thromboembolic	config/diseases_gemini.tsv or frozen-alias mapping
+tinnitus	Tinnitus	config/diseases_gemini.tsv or frozen-alias mapping
+ulc_colitis	Ulcerative colitis	config/diseases_gemini.tsv or frozen-alias mapping
+ulcer_peptic	Peptic ulcer disease	config/diseases_gemini.tsv or frozen-alias mapping
+urine_incont	Urinary Incontinence	config/diseases_gemini.tsv or frozen-alias mapping
+urolithiasis	Urolithiasis	config/diseases_gemini.tsv or frozen-alias mapping
+valve_nonrheumatic	Non-rheumatic valvular disease	config/diseases_gemini.tsv or frozen-alias mapping
