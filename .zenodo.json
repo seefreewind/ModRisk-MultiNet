@@ -1,0 +1,38 @@
+{
+  "title": "ModRisk-MultiNet: code and derived data for the corrected R2 pair-level classification",
+  "description": "Versioned analysis code, frozen non-restricted genetic-correlation result tables, and the corrected R2 derived pair-level classification for a 71-disease multimorbidity network. The R2 repair separates FDR-significant signed baseline-to-joint differences, direction of absolute genetic-correlation magnitude change, and residual significance. No GWAS, LDSC, partialLDSC, joint-conditioning, MVMR, or MR-AHC estimates were rerun or changed. Restricted third-party GWAS files are not included.",
+  "creators": [
+    {
+      "name": "Xu, Sisi",
+      "affiliation": "The First Affiliated Hospital of Wenzhou Medical University"
+    },
+    {
+      "name": "Zhang, Yu",
+      "affiliation": "The Second Affiliated Hospital of Wenzhou Medical University"
+    },
+    {
+      "name": "Zeng, Tiantian",
+      "affiliation": "The First Affiliated Hospital of Wenzhou Medical University"
+    },
+    {
+      "name": "Liu, Jiechen",
+      "affiliation": "The First Affiliated Hospital of Wenzhou Medical University"
+    },
+    {
+      "name": "Qiu, Ling",
+      "affiliation": "The First Affiliated Hospital of Wenzhou Medical University",
+      "orcid": "0009-0007-3662-5124"
+    }
+  ],
+  "version": "v1.0.1",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "multimorbidity",
+    "genetic correlation",
+    "conditional genetic correlation",
+    "derived pair-level classification",
+    "reproducibility"
+  ]
+}

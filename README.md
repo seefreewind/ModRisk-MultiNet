@@ -4,7 +4,7 @@ This repository supports the BMC Genomics research article **Genome-wide mapping
 
 The fixed network contains 71 diseases and 2,485 disease pairs. Baseline genetic correlations were FDR-significant for 1,535 pairs. Joint conditioning produced FDR-significant signed baseline-to-joint differences for **1,019** pairs: **900** showed decreased and **119** showed increased absolute genetic-correlation magnitude. Another 1,466 pairs had no FDR-significant signed difference. Across the network, **1,100** pairs retained FDR-significant residual genetic correlations. Change class and residual significance are independent dimensions; 495 attenuated, 47 enhanced, and 558 no-significant-signed-change pairs retained a significant residual correlation.
 
-The R2 repair changed **derived pair-level labels**, not GWAS, LDSC, partialLDSC, joint-conditioning, MVMR, or MR-AHC estimates. See [the correction note](R2_CLASSIFICATION_CORRECTION_NOTE.md) and [classification rules](config/CLASSIFICATION_RULES_R2.md). The machine-readable R2 pair table and cross-tab are in `results/phase3_classification_repair_R2/`.
+The R2 repair changed **derived pair-level labels**, not GWAS, LDSC, partialLDSC, joint-conditioning, MVMR, or MR-AHC estimates. See [the correction note](R2_CLASSIFICATION_CORRECTION_NOTE.md), [classification rules](config/CLASSIFICATION_RULES_R2.md), and [data dictionary](DATA_DICTIONARY_R2.md). The machine-readable R2 pair table and cross-tab are in `results/phase3_classification_repair_R2/`.
 
 ## Reproducibility
 
@@ -14,4 +14,4 @@ The disease GWAS data are from GEMINI v1.1 ([source archive](https://doi.org/10.
 
 ## Release status
 
-The previously published [Zenodo record 10.5281/zenodo.22297319](https://doi.org/10.5281/zenodo.22297319) corresponds to the historical GitHub `1` tag and **does not contain this R2 correction**. The GitHub `v1.0.0` release is also historical. A `v1.0.1` patch archive is planned; do not cite the earlier DOI as the archived R2 version. Until a new archive is published, use the current repository commit to identify the corrected code and derived data.
+The previously published [Zenodo record 10.5281/zenodo.22297319](https://doi.org/10.5281/zenodo.22297319) corresponds to the historical GitHub `1` tag and **does not contain this R2 correction**. The GitHub `v1.0.0` release is also historical. The `v1.0.1` GitHub release contains the R2 correction; cite its version-specific Zenodo DOI only after verifying that the new archive has been published. Do not use the earlier DOI as the archived R2 version.
