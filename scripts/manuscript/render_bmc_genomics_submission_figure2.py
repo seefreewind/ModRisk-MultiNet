@@ -47,7 +47,8 @@ def main() -> None:
     significant = rebuilt[rebuilt.difference_fdr < .05]
     count = pd.concat([significant.trait_1, significant.trait_2]).value_counts()
     source = old.set_index("disease")
-    assert (source.loc[count.index, "significantly_attenuated_edges"].to_numpy() == count.to_numpy()).all()
+    count = count.reindex(source.index, fill_value=0)
+    assert (source["significantly_attenuated_edges"].to_numpy() == count.to_numpy()).all()
     # The historical rank orders by significant signed-difference count, then
     # by the median *absolute* magnitude change. Preserve this exact order.
     expected_order = old.sort_values(
