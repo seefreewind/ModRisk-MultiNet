@@ -14,4 +14,4 @@ The disease GWAS data are from GEMINI v1.1 ([source archive](https://doi.org/10.
 
 ## Release status
 
-The previously published [Zenodo record 10.5281/zenodo.22297319](https://doi.org/10.5281/zenodo.22297319) corresponds to the historical GitHub `1` tag and **does not contain this R2 correction**. The GitHub `v1.0.0` release is also historical. The `v1.0.1` GitHub release contains the R2 correction; cite its version-specific Zenodo DOI only after verifying that the new archive has been published. Do not use the earlier DOI as the archived R2 version.
+The corrected R2 code and derived data are archived in [Zenodo version `v1.0.1`, DOI 10.5281/zenodo.22927913](https://doi.org/10.5281/zenodo.22927913), corresponding to the [GitHub `v1.0.1` release](https://github.com/seefreewind/ModRisk-MultiNet/releases/tag/v1.0.1). The previously published [Zenodo record 10.5281/zenodo.22297319](https://doi.org/10.5281/zenodo.22297319) corresponds to the historical GitHub `1` tag and **does not contain this R2 correction**. The GitHub `v1.0.0` release is also historical. Cite the version-specific R2 DOI for the corrected classification.
