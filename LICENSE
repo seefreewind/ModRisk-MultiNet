@@ -1,5 +1,16 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
 Copyright (c) 2026 Sisi Xu, Yu Zhang, Tiantian Zeng, Jiechen Liu, and Ling Qiu.
 
-No project-wide open-source licence has been selected. All rights are reserved. Third-party datasets and software remain subject to their original terms and are not relicensed here.
+The project-authored code, documentation and derived outputs in this repository
+are licensed under the Creative Commons Attribution 4.0 International License.
+You may share and adapt this material for any purpose, provided that appropriate
+credit is given, a link to the licence is supplied, and changes are indicated.
 
-This release retains this conservative all-rights-reserved notice. Reuse beyond applicable legal exceptions requires permission from the copyright holders.
+Licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Licence summary: https://creativecommons.org/licenses/by/4.0/
+SPDX-License-Identifier: CC-BY-4.0
+
+Third-party datasets, software and other externally authored materials remain
+subject to their original terms and are not relicensed by this notice. Full
+third-party GWAS summary-statistic files are not distributed in this repository.

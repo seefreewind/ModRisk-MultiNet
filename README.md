@@ -1,4 +1,4 @@
-# ModRisk-MultiNet reproducibility archive v1.0.2
+# ModRisk-MultiNet reproducibility archive v1.0.3
 
 This public release contains project-authored code and derived, non-restricted outputs for the BMC Genomics major revision of *Genome-wide mapping of shared and residual genetic architecture of multimorbidity after conditioning on six modifiable risk-factor traits*.
 
@@ -6,7 +6,11 @@ The current package adds a prespecified frequency audit of all 54 palindromic va
 
 The archive does not redistribute third-party GWAS summary-statistic files. Source data must be obtained from the resources in `SOURCE_DATA_MANIFEST.tsv` and placed in local paths before code is rerun. Source-file paths and checksums in the audit tables identify the inputs used; they do not grant redistribution rights. The 17 frequency-ambiguous palindromic variants are retained only in the disclosed historical 423-variant sensitivity model and are excluded from the strict-primary model.
 
-Manuscripts, response letters and submission documents are excluded. The historical archive is v1.0.1 (DOI 10.5281/zenodo.22927913). Version v1.0.2 is released from GitHub and archived as a new Zenodo version; consult the GitHub release page or Zenodo record for the version-specific DOI.
+Manuscripts, response letters and submission documents are excluded. Version v1.0.2 is archived at DOI [10.5281/zenodo.24528817](https://doi.org/10.5281/zenodo.24528817). Version v1.0.3 changes only the project licence to CC BY 4.0 so that the GitHub release and Zenodo rights metadata are consistent; scientific code, data and results are unchanged.
+
+## Licence
+
+Project-authored code, documentation and derived outputs are available under the [Creative Commons Attribution 4.0 International License](LICENSE). Third-party datasets and software remain subject to their original terms and are not relicensed here.
 
 ## Key entry points
 

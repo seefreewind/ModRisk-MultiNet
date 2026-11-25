@@ -1,8 +1,9 @@
 {
   "title": "ModRisk-MultiNet: frequency-audited MVMR and corrected multimorbidity network outputs",
   "upload_type": "software",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publication_date": "2026-11-25",
+  "license": "cc-by-4.0",
   "creators": [
     {
       "name": "Xu, Sisi"
@@ -23,10 +24,10 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "10.5281/zenodo.22927913",
+      "identifier": "10.5281/zenodo.24528817",
       "relation": "isNewVersionOf",
       "resource_type": "software"
     }
   ],
-  "notes": "Version 1.0.2 excludes 17 frequency-ambiguous palindromic variants from the strict-primary MVMR analysis and includes regenerated sensitivity analyses. Manuscripts and restricted third-party GWAS files are not redistributed."
+  "notes": "Version 1.0.3 is a licence-only patch applying CC BY 4.0 to project-authored code, documentation and derived outputs. Scientific code, data and results are unchanged from v1.0.2. Manuscripts and restricted third-party GWAS files are not redistributed."
 }

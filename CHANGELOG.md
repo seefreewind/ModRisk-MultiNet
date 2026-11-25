@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.3 — released (2026-11-25)
+
+- Replaced the provisional all-rights-reserved notice with CC BY 4.0 for project-authored code, documentation and derived outputs.
+- Added explicit exclusions for third-party datasets, software and externally authored materials.
+- Aligned GitHub and Zenodo rights metadata without changing any scientific code, data, analysis or result.
+
 ## v1.0.2 — released (2026-11-25)
 
 - Corrected method-specific confidence intervals without changing beta, standard error, P value or FDR q value.
@@ -18,4 +24,4 @@
 
 ## v1.0.1 — published historical archive
 
-Published at DOI 10.5281/zenodo.22927913. Superseded by v1.0.2 only after the new version is publicly released.
+Published at DOI 10.5281/zenodo.22927913. Superseded by v1.0.2 (DOI 10.5281/zenodo.24528817).
