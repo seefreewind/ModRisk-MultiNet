@@ -1,0 +1,72 @@
+analysis_code	resource_code	display_name	mapping_status
+AAA	AAA	Abdominal aortic aneurysm	IDENTICAL
+AF	AF	Atrial fibrillation	IDENTICAL
+BPH	BPH	Benign prostatic hyperplasia	IDENTICAL
+CKD	CKD	Chronic kidney disease	IDENTICAL
+COPD	COPD	COPD	IDENTICAL
+ED	ED	Erectile dysfunction	IDENTICAL
+GORD	GORD	Gastro-oesophageal reflux disease	IDENTICAL
+HF	HF	Heart failure	IDENTICAL
+IBS	IBS	Irritable bowel syndrome	IDENTICAL
+IDA	IDA	Iron deficiency anaemia	IDENTICAL
+OA	OA	Osteoarthritis	IDENTICAL
+PMR	PMR	Polymyalgia rheumatica	IDENTICAL
+RA	RA	Rheumatoid arthritis	IDENTICAL
+TIA	TIA	Transient ischaemic attack	IDENTICAL
+alc_problems	alcohol_problems	Alcohol problems	FROZEN_ALIAS_TO_RESOURCE_CODE
+allergic_rhinitis	allergic_rhinitis	Allergic and chronic rhinitis	IDENTICAL
+anxiety	anxiety	Anxiety disorders	IDENTICAL
+asthma	asthma	Asthma	IDENTICAL
+b12_def	b12_def	Vitamin B12 deficiency anaemia	IDENTICAL
+bursitis	bursitis	Bursitis	IDENTICAL
+carpal_tunnel	carpal_tunnel	Carpal tunnel syndrome	IDENTICAL
+cataract	cataract	Cataract	IDENTICAL
+cholelithiasis	cholelithiasis	Cholelithiasis	IDENTICAL
+coronary_heart	coronary_heart	Coronary heart disease	IDENTICAL
+deaf	hearing_loss	Hearing loss	FROZEN_ALIAS_TO_RESOURCE_CODE
+depression	depression	Depression	IDENTICAL
+diabetes_type_2	diabetes_type_2	Type 2 diabetes	IDENTICAL
+diverticuli	diverticuli	Diverticular disease of intestine (acute and chronic)	IDENTICAL
+enthesopathy_lower	enthesopathy_lower	Enthesopathies of the lower body	IDENTICAL
+enthesopathy_shoulder	enthesopathy_shoulder	Enthesopathies of the shoulder	IDENTICAL
+enthesopathy_upper	enthesopathy_upper	Enthesopathies of the upper body	IDENTICAL
+essential_tremor	essential_tremor	Essential tremor	IDENTICAL
+female_genital_prolapse	female_genital_prolapse	Female genital prolapse	IDENTICAL
+fibromatosis	fibromatosis	Fibromatoses	IDENTICAL
+fibromyalgia	fibromyalgia	Fibromyalgia	IDENTICAL
+gastritis_duodenitis	gastritis_duodenitis	Gastritis/duodenitis	IDENTICAL
+glaucoma	glaucoma	Glaucoma	IDENTICAL
+gout	gout	Gout	IDENTICAL
+hypertension	hypertension	Hypertension	IDENTICAL
+hyperthyroid	hyperthyroid	Hyperthyroidism (without hypo)	IDENTICAL
+hypothyroid	hypothyroid	Hypothyroidism (without hyper)	IDENTICAL
+insomnia	insomnia	Insomnia	IDENTICAL
+intervert_disc	intervert_disc	Intervertebral disc disorders	IDENTICAL
+isch_stroke_tia	isch_stroke_tia	Ischaemic stroke/TIA	IDENTICAL
+migraine	migraine	Migraine	IDENTICAL
+osteoporosis	osteoporosis	Osteoporosis	IDENTICAL
+periph_neuro	periph_neuro	Peripheral neuropathy	IDENTICAL
+peripheral_arterial	peripheral_arterial	Peripheral arterial disease	IDENTICAL
+pri_bladder	pri_bladder	Primary bladder malignancy	IDENTICAL
+pri_breast	pri_breast	Primary breast malignancy	IDENTICAL
+pri_colorectal	pri_colorectal	Primary colorectal malignancy	IDENTICAL
+pri_prost	pri_prost	Primary prostate malignancy	IDENTICAL
+pri_skin	pri_skin	Primary skin/subcutaneous malignancy	IDENTICAL
+psoriasis	psoriasis	Psoriasis	IDENTICAL
+raynauds	raynauds	Raynaud's syndrome	IDENTICAL
+retinal_detach	retinal_detach	Retinal detachments and breaks	IDENTICAL
+schizo	SSD	Schizophrenia-spectrum disorders	FROZEN_ALIAS_TO_RESOURCE_CODE
+scoliosis	scoliosis	Scoliosis	IDENTICAL
+sinusitis	sinusitis	Chronic sinusitis	IDENTICAL
+sleep_apnoea	sleep_apnoea	Sleep apnea	IDENTICAL
+spondylolisthesis	spondylolisthesis	Spondylolisthesis	IDENTICAL
+spondylosis	spondylosis	Spondylosis	IDENTICAL
+stroke_all	stroke_all	Stroke	IDENTICAL
+tendon	tendon	Tendon disorders	IDENTICAL
+thromboembolic	thromboembolic	Thromboembolic	IDENTICAL
+tinnitus	tinnitus	Tinnitus	IDENTICAL
+ulc_colitis	ulc_colitis	Ulcerative colitis	IDENTICAL
+ulcer_peptic	ulcer_peptic	Peptic ulcer disease	IDENTICAL
+urine_incont	urine_incont	Urinary Incontinence	IDENTICAL
+urolithiasis	urolithiasis	Urolithiasis	IDENTICAL
+valve_nonrheumatic	valve_nonrheumatic	Non-rheumatic valvular disease	IDENTICAL

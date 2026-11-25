@@ -1,0 +1,76 @@
+estimator	outcome	planned_units	successful_units	failed_units	convergence_status	message
+MVMR-IVW/Q/LOO	COPD	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	HF	424	424	0	SUCCESS	
+MVMR-IVW/Q/LOO	OA	424	424	0	SUCCESS	
+MVMR-IVW/Q/LOO	alcohol_problems	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	carpal_tunnel	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	coronary_heart	424	424	0	SUCCESS	
+MVMR-IVW/Q/LOO	diabetes_type_2	424	424	0	SUCCESS	
+MVMR-IVW/Q/LOO	fibromyalgia	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	gastritis_duodenitis	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	gout	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	hypertension	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	insomnia	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	periph_neuro	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	sleep_apnoea	425	425	0	SUCCESS	
+MVMR-IVW/Q/LOO	valve_nonrheumatic	425	425	0	SUCCESS	
+MVMR-Median weighted LAD	COPD	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	HF	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	OA	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	alcohol_problems	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	carpal_tunnel	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	coronary_heart	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	diabetes_type_2	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	fibromyalgia	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	gastritis_duodenitis	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	gout	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	hypertension	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	insomnia	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	periph_neuro	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	sleep_apnoea	2000	2000	0	SUCCESS	
+MVMR-Median weighted LAD	valve_nonrheumatic	2000	2000	0	SUCCESS	
+Q-minimisation	COPD	424	424	0	SUCCESS	
+Q-minimisation	HF	423	423	0	SUCCESS	
+Q-minimisation	OA	423	423	0	SUCCESS	
+Q-minimisation	alcohol_problems	424	424	0	SUCCESS	
+Q-minimisation	carpal_tunnel	424	424	0	SUCCESS	
+Q-minimisation	coronary_heart	423	423	0	SUCCESS	
+Q-minimisation	diabetes_type_2	423	423	0	SUCCESS	
+Q-minimisation	fibromyalgia	424	424	0	SUCCESS	
+Q-minimisation	gastritis_duodenitis	424	424	0	SUCCESS	
+Q-minimisation	gout	424	424	0	SUCCESS	
+Q-minimisation	hypertension	424	424	0	SUCCESS	
+Q-minimisation	insomnia	424	424	0	SUCCESS	
+Q-minimisation	periph_neuro	424	424	0	SUCCESS	
+Q-minimisation	sleep_apnoea	424	424	0	SUCCESS	
+Q-minimisation	valve_nonrheumatic	424	424	0	SUCCESS	
+MVMR-Egger BMI_increasing	COPD	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	COPD	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	HF	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	HF	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	OA	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	OA	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	alcohol_problems	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	alcohol_problems	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	carpal_tunnel	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	carpal_tunnel	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	coronary_heart	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	coronary_heart	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	diabetes_type_2	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	diabetes_type_2	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	fibromyalgia	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	fibromyalgia	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	gastritis_duodenitis	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	gastritis_duodenitis	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	gout	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	gout	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	hypertension	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	hypertension	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	insomnia	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	insomnia	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	periph_neuro	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	periph_neuro	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	sleep_apnoea	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	sleep_apnoea	1	1	0	SUCCESS	""
+MVMR-Egger BMI_increasing	valve_nonrheumatic	1	1	0	SUCCESS	""
+MVMR-Egger SMK_increasing	valve_nonrheumatic	1	1	0	SUCCESS	""

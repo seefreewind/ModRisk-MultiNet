@@ -1,0 +1,5 @@
+model	selected_instruments	unresolved_palindromic_retained	exposure_GWS_retained	min_outcome_instruments	max_outcome_instruments	BMI_min_conditional_F	Smoking_min_conditional_F	directions_vs_A	nominal_status_vs_A	FDR_status_vs_A
+A_FULL_423	423	17	412	422	423	25.3614426625735	3.85209802977936	30/30	30/30	30/30
+B_EXPOSURE_GWS_412	412	17	412	411	412	25.1263672495012	3.82596812194787	30/30	29/30	30/30
+C_STRICT_406	406	0	395	405	406	25.4758454120355	3.75566579093521	29/30	29/30	30/30
+D_EXPOSURE_GWS_STRICT_395	395	0	395	394	395	25.2180298275411	3.72565265751095	29/30	29/30	29/30

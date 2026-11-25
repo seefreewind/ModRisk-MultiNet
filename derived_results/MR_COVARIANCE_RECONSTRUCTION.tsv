@@ -1,0 +1,8 @@
+metric	value	status
+full_harmonized_snps	1947085	PASS
+null_snps_z_lt_0.5_both_traits	159637	PASS
+z_threshold	0.5	PASS
+lambda	0.0915189134758081	PASS
+gencov_matrices	423	PASS
+minimum_matrix_eigenvalue	2.45641360620826e-06	PASS
+maximum_matrix_asymmetry	0	PASS

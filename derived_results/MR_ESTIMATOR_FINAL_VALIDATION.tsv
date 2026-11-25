@@ -1,0 +1,6 @@
+estimator	validation_status	detail
+MVMR-IVW	PASS	15/15 outcomes; final harmonised matrix; model-based weighted regression
+MVMR-Median weighted LAD	PASS	30000/30000 successful parametric bootstrap draws; max difference vs frozen 2.89e-15
+Q-minimisation	PASS	6341/6341 successful jackknife fits; max difference vs frozen 6.27e-08
+Directional MVMR-Egger	PASS	30/30 orientation-outcome models; max difference vs frozen 2.66e-15
+Independent UVMR	PASS	240/240 planned estimator units and harmonisation fields passed the final machine-readable-file audit

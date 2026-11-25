@@ -1,0 +1,9 @@
+resource	identifier_or_url	redistributed	access_note
+GEMINI disease GWAS v1.1	https://doi.org/10.5281/zenodo.19890575	No	Public de-identified summary statistics; obtain from source
+BMI GWAS	10.1093/hmg/ddy271	No	Obtain from source publication/resource
+Smoking initiation GWAS	10.1038/s41588-018-0307-5	No	Obtain from source publication/resource
+Systolic blood pressure GWAS	https://www.nealelab.is/uk-biobank	No	Neale Lab UK Biobank round 1 field 4080
+Apolipoprotein B GWAS	10.1038/s41588-021-00870-7	No	Obtain from source publication/resource
+Fasting glucose GWAS	10.1038/ng.2274	No	Obtain from source publication/resource
+Sleep duration GWAS	10.1038/s41467-019-08917-4	No	Obtain from source publication/resource
+Published project archive v1.0.1	https://doi.org/10.5281/zenodo.22927913	N/A	Superseded when v1.0.2 is publicly released

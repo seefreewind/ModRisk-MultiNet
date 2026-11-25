@@ -1,0 +1,11 @@
+component	version_or_value
+Operating system	macOS-26.4-arm64-arm-64bit
+Python analysis runtime	3.12.13
+R analysis runtime	4.4.3
+partialLDSC	0.2.0 commit 937ef6c
+PLINK	2.0.0-a.7.3
+MVMR	0.4.9
+quantreg	6.1
+data.table	1.18.4
+TwoSampleMR	0.7.7
+MendelianRandomization	0.10.0

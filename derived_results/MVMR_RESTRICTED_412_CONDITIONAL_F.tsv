@@ -1,0 +1,3 @@
+exposure	conditional_F	threshold_10	n_instruments	selection
+BMI	25.2470394339204	PASS	412	423-set restricted to BMI or smoking-initiation P<5e-8
+Smoking initiation	3.82609668010404	FAIL	412	423-set restricted to BMI or smoking-initiation P<5e-8

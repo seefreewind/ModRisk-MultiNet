@@ -1,0 +1,11 @@
+method	orientation	exposure	FDR_significant	positive	estimates
+MVMR weighted LAD median		BMI	13	13	15
+MVMR weighted LAD median		Smoking initiation	6	9	15
+MVMR-Egger	BMI_increasing	BMI	13	12	15
+MVMR-Egger	BMI_increasing	Smoking initiation	7	14	15
+MVMR-Egger	SMK_increasing	BMI	13	13	15
+MVMR-Egger	SMK_increasing	Smoking initiation	8	14	15
+MVMR-IVW		BMI	13	13	15
+MVMR-IVW		Smoking initiation	7	14	15
+Q-minimisation		BMI	12	13	15
+Q-minimisation		Smoking initiation	7	14	15

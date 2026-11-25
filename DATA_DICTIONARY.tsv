@@ -1,0 +1,37 @@
+field	definition	status
+pair_id	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+trait_1	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+trait_2	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+baseline_rg	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+baseline_se	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+baseline_p	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+baseline_fdr	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+joint_rg	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+joint_se	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+joint_p	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+residual_fdr	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+signed_difference	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+difference_se	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+difference_p	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+difference_fdr	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+baseline_abs_rg	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+joint_abs_rg	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+absolute_attenuation	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+proportional_attenuation	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+residual_ci_lower	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+residual_ci_upper	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+original_frozen_class	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+original_near_null_flag	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+change_class	ATTENUATED or ENHANCED when the signed-difference BH-FDR q<0.05 and absolute correlation decreases or increases; otherwise NO_SIGNIFICANT_CHANGE.	PRESERVED_OR_RENAMED
+sign_reversal_flag	True when baseline and joint correlations have opposite non-zero signs.	PRESERVED_OR_RENAMED
+legacy_significant_reversal_residual_z_gate	Historical flag requiring reversal, signed-difference BH-FDR q<0.05 and residual |Z|>=2; retained for traceability only.	PRESERVED_OR_RENAMED
+residual_state	Separately defined residual state based on residual FDR significance and the locked point-estimate near-null rule.	PRESERVED_OR_RENAMED
+residual_significant	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	PRESERVED_OR_RENAMED
+near_null_classified	Exploratory point-estimate label; it is not evidence of no genetic correlation and is not equivalent to interval-based equivalence.	PRESERVED_OR_RENAMED
+equivalent_005	Interval-based equivalence criterion: entire residual 95% CI lies within [-0.05, 0.05].	PRESERVED_OR_RENAMED
+equivalent_010	Sensitivity interval-based equivalence criterion: entire residual 95% CI lies within [-0.10, 0.10].	PRESERVED_OR_RENAMED
+significant_reversal_flag	True when sign_reversal_flag is true and signed-difference BH-FDR q<0.05.	REPAIRED_DERIVED
+sign_reversal_definition	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	REPAIRED_DERIVED
+significant_reversal_definition	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	REPAIRED_DERIVED
+trait_1_resource_code	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	REPAIRED_DERIVED
+trait_2_resource_code	See frozen Phase 3 source tables; numerical estimates and inferential quantities are unchanged.	REPAIRED_DERIVED

@@ -1,30 +1,14 @@
 {
-  "title": "ModRisk-MultiNet: code and derived data for the corrected R2 pair-level classification",
-  "description": "Versioned analysis code, frozen non-restricted genetic-correlation result tables, and the corrected R2 derived pair-level classification for a 71-disease multimorbidity network. The R2 repair separates FDR-significant signed baseline-to-joint differences, direction of absolute genetic-correlation magnitude change, and residual significance. No GWAS, LDSC, partialLDSC, joint-conditioning, MVMR, or MR-AHC estimates were rerun or changed. Restricted third-party GWAS files are not included.",
+  "title": "ModRisk-MultiNet: frequency-audited MVMR and corrected multimorbidity network outputs",
+  "description": "Versioned project-authored code and derived, non-restricted outputs for a 71-disease multimorbidity genetic-correlation network. Version 1.0.2 excludes 17 frequency-ambiguous palindromic variants from the strict-primary MVMR analysis, retains 406 variants (405 for four outcomes), regenerates IVW and robust sensitivity analyses, and documents the corrected baseline-by-residual significance cross-tabulation. Manuscripts and restricted third-party GWAS files are not redistributed.",
   "creators": [
-    {
-      "name": "Xu, Sisi",
-      "affiliation": "The First Affiliated Hospital of Wenzhou Medical University"
-    },
-    {
-      "name": "Zhang, Yu",
-      "affiliation": "The Second Affiliated Hospital of Wenzhou Medical University"
-    },
-    {
-      "name": "Zeng, Tiantian",
-      "affiliation": "The First Affiliated Hospital of Wenzhou Medical University"
-    },
-    {
-      "name": "Liu, Jiechen",
-      "affiliation": "The First Affiliated Hospital of Wenzhou Medical University"
-    },
-    {
-      "name": "Qiu, Ling",
-      "affiliation": "The First Affiliated Hospital of Wenzhou Medical University",
-      "orcid": "0009-0007-3662-5124"
-    }
+    {"name": "Xu, Sisi", "affiliation": "The First Affiliated Hospital of Wenzhou Medical University"},
+    {"name": "Zhang, Yu", "affiliation": "The Second Affiliated Hospital of Wenzhou Medical University"},
+    {"name": "Zeng, Tiantian", "affiliation": "The First Affiliated Hospital of Wenzhou Medical University"},
+    {"name": "Liu, Jiechen", "affiliation": "The First Affiliated Hospital of Wenzhou Medical University"},
+    {"name": "Qiu, Ling", "affiliation": "The First Affiliated Hospital of Wenzhou Medical University", "orcid": "0009-0007-3662-5124"}
   ],
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "upload_type": "software",
   "access_right": "open",
   "language": "eng",
@@ -32,7 +16,11 @@
     "multimorbidity",
     "genetic correlation",
     "conditional genetic correlation",
-    "derived pair-level classification",
+    "multivariable Mendelian randomization",
+    "palindromic variants",
     "reproducibility"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.22927913", "relation": "isNewVersionOf", "resource_type": "software"}
   ]
 }

@@ -1,0 +1,7 @@
+instrument_set	analysis_label	count	selection_or_definition	exposure_scale	outcome_scale	covariance_definition	status
+MVMR final set	MVMR_COMPLETE_423	423 unique; 422 for four outcomes	Six-exposure P<5×10−8 union; joint r²<0.001/10 Mb clump; complete BMI and smoking associations (481); per-variant BMI or smoking F>10 (423)	BMI per 1-SD inverse-normal residual; smoking liability	Disease log-odds	SNP-specific 2×2 exposure-association sampling covariance	CURRENT
+Restricted MVMR	MVMR_BMI_OR_SMK_GWS_412	412 unique; 411 for four outcomes	MVMR_COMPLETE_423 restricted to BMI_GWS or SMK_GWS	Same as final MVMR	Disease log-odds	Same SNP-specific covariance construction	CURRENT_SENSITIVITY
+Independent BMI UVMR	INDEPENDENT_BMI_521	521 post-clump; 504–506 used per outcome	BMI GWAS P<5×10−8; BMI-only clump	BMI per 1-SD inverse-normal residual	Disease log-odds	Not applicable	CURRENT
+Independent smoking UVMR	INDEPENDENT_SMK_92	92 post-clump; 84 used per outcome	Smoking GWAS P<5×10−8; smoking-only clump	Smoking-initiation liability	Disease log-odds	Not applicable	CURRENT
+Historical union-subset UVMR	UNION_SUBSET_UVMR	404 BMI; 16 smoking	Complete MVMR matrix then exposure-specific genome-wide significance	Same as parent exposure	Disease log-odds	Not applicable	HISTORICAL_SENSITIVITY
+Historical MR-AHC set	MRAHC_HISTORICAL_WITHDRAWN_54	54 explicit variants	Six-exposure clumped union; smoking-specific F>10; complete four-outcome profiles	Profile denominator	Disease log-odds	Not used for current effect estimation	HISTORICAL_WITHDRAWN

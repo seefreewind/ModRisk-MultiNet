@@ -1,0 +1,55 @@
+SNP	intermediate_frequency	frequency_favors_current_orientation	current_orientation_EAF_difference	opposite_orientation_EAF_difference	decision	decision_reason
+rs10275044	False	True	0.02949999999999997	0.5555	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs10775123	False	True	0.0019000000000000128	0.6358999999999999	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs10823897	False	True	0.01749999999999996	0.1845	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs10824218	True	True	0.018799999999999983	0.12319999999999998	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs10830963	False	True	0.007599999999999996	0.45039999999999997	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs10842240	False	True	0.03119999999999999	0.7372	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs10883057	False	True	0.008799999999999975	0.4632	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs10887578	True	True	0.019600000000000006	0.04040000000000005	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs10962550	False	True	0.00789999999999999	0.6319	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs10975933	False	True	0.00040000000000001146	0.31160000000000004	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs10984756	False	True	0.003799999999999998	0.7942	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs11505821	False	True	0.013200000000000003	0.8665999999999999	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs12258967	False	True	0.016500000000000015	0.40349999999999997	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs12987009	True	True	0.020600000000000007	0.14340000000000008	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs13047416	False	True	0.0121	0.23409999999999997	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs13209968	True	True	0.013700000000000045	0.021700000000000053	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs1330052	False	True	0.0116	0.2876	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs1372177	True	False	0.031399999999999983	0.007399999999999962	UNRESOLVED_FREQUENCY_AMBIGUOUS	Intermediate-frequency palindrome and the alternative strand orientation fits the EAFs better
+rs138289	True	True	0.008900000000000019	0.04310000000000003	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs1399471	False	True	0.03720000000000001	0.4411999999999999	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs1412235	False	True	0.027500000000000024	0.39249999999999996	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs1436344	True	True	0.0262	0.1581999999999999	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs1454687	True	True	0.011299999999999977	0.056700000000000084	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs1554194	True	True	0.0008000000000000229	0.05680000000000007	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs156201	False	True	0.024600000000000066	0.49660000000000004	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs1624134	True	True	0.01319999999999999	0.17320000000000008	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs16966662	False	True	0.008800000000000002	0.6452	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs2047648	False	True	0.01200000000000001	0.486	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs2057393	False	True	0.0017000000000000348	0.6637	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs2124499	False	True	0.014800000000000035	0.2712	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs2174307	False	True	0.009299999999999975	0.17730000000000007	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs2240294	True	True	0.002599999999999991	0.0925999999999999	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs2247698	False	True	0.0015999999999999903	0.3183999999999999	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs2612576	False	True	0.011099999999999999	0.44089999999999996	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs355777	False	True	0.007399999999999962	0.17140000000000005	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs4589691	False	True	0.0121	0.6720999999999999	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs4800191	False	True	0.019100000000000006	0.29290000000000005	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs538579	False	True	0.0022000000000000353	0.35220000000000007	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs6011457	True	False	0.024500000000000022	0.019500000000000017	UNRESOLVED_FREQUENCY_AMBIGUOUS	Intermediate-frequency palindrome and the alternative strand orientation fits the EAFs better
+rs6235	False	True	0.005199999999999982	0.4648	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs6499244	True	True	0.023399999999999976	0.11459999999999992	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs6595205	True	True	0.005499999999999949	0.055499999999999994	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs6713781	False	True	0.0046000000000000485	0.17739999999999995	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs6724631	True	True	0.02529999999999999	0.11069999999999991	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs7025938	False	True	0.0383	0.32430000000000003	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs7323	False	True	0.015699999999999992	0.4683	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs754635	False	True	0.008299999999999974	0.7663	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs7615297	False	True	0.0025000000000000022	0.7095	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs7761673	False	True	0.009199999999999986	0.5792	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs7921378	True	True	0.01629999999999998	0.05769999999999992	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs8027205	False	True	0.017699999999999994	0.2243	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs8097672	False	True	0.00020000000000000573	0.6941999999999999	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation
+rs965823	True	True	0.0020000000000000018	0.08600000000000008	UNRESOLVED_FREQUENCY_AMBIGUOUS	At least one aligned MAF is >=0.42, so strand orientation is not safely resolved by frequency
+rs9816226	False	True	0.014100000000000001	0.6538999999999999	RESOLVED_BY_EAF	Both exposure frequencies are sufficiently informative and favor the retained orientation

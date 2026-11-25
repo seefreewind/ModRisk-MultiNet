@@ -1,0 +1,4 @@
+scenario	allele_operation	covariance_operation	BMI_conditional_F	SMK_conditional_F	audit_status
+common_BMI_coding	BMI unchanged; SMK and outcome multiplied by -1 on swapped rows	unchanged	25.4799026509266	3.85216902274617	PASS
+common_SMK_coding_joint_recode	BMI multiplied by -1 on swapped rows; SMK and outcome already on smoking allele	unchanged because transition is S=-I	25.4799026509266	3.85216902274617	PASS
+incorrect_single_exposure_flip_counterexample	BMI alone multiplied by -1 while SMK/outcome unchanged and covariance transformed as diag(-1,1)	off-diagonal sign changed			NOT_THE_FINAL_ANALYSIS
